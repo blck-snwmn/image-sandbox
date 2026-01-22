@@ -34,3 +34,8 @@ Example:
 ```
 
 Create subdirectories for each processing type under each language directory.
+
+## Default Tools
+
+- **Python**: Use `uv` for package management and virtual environments
+- **TypeScript**: Use `bun` as the runtime and package manager
