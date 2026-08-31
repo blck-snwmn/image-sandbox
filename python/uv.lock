@@ -629,7 +629,7 @@ dependencies = [
 requires-dist = [
     { name = "easyocr", specifier = "==1.7.2" },
     { name = "paddleocr", specifier = "==3.4.1" },
-    { name = "paddlepaddle", specifier = "==3.3.0" },
+    { name = "paddlepaddle", specifier = "==3.3.1" },
     { name = "pytesseract", specifier = "==0.3.13" },
 ]
 
@@ -706,7 +706,7 @@ wheels = [
 
 [[package]]
 name = "paddlepaddle"
-version = "3.3.0"
+version = "3.3.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "httpx" },
@@ -720,9 +720,9 @@ dependencies = [
     { name = "typing-extensions" },
 ]
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/1c/ea/909737cf298cdbdaa2b2a9b16961e3883802cc600f9b7dc8331e5f80e374/paddlepaddle-3.3.0-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:b56781354b18063f43a87f3d562ada5a4f8a437fe2312ab1032fa89ad5a54ec0", size = 103703459, upload-time = "2026-01-13T09:21:39.399Z" },
-    { url = "https://files.pythonhosted.org/packages/0d/b7/1d9e9170a5efc3a2188df6899b4279d650be222b0987cbfe0f14668b467b/paddlepaddle-3.3.0-cp313-cp313-manylinux1_x86_64.whl", hash = "sha256:88898274f5cd5e2f4ebaf5631d4c00927d9d58465a083875c224b40f9935cd39", size = 193732176, upload-time = "2026-01-13T09:05:36.068Z" },
-    { url = "https://files.pythonhosted.org/packages/8c/1c/04d8fa9181cb0ec409271ab35c496c0fd0641ba9e8ffd118d15358791f93/paddlepaddle-3.3.0-cp313-cp313-win_amd64.whl", hash = "sha256:e999a2dcdb33597f2ddf8971f4eec362bc1a21c347ffaeae9ddeea9f0f51c9dd", size = 104279406, upload-time = "2026-01-13T09:39:09.178Z" },
+    { url = "https://files.pythonhosted.org/packages/65/f8/bebb829227ac5574454b4342bcf512dbb02268118b62222fc7c1b420a3ef/paddlepaddle-3.3.1-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:2ce30bfb0023d8c9314b1413ca7a775a4ddd076e4551e74fbed2366cf1395c98", size = 104538799, upload-time = "2026-03-26T11:18:41.158Z" },
+    { url = "https://files.pythonhosted.org/packages/56/8d/5a700dc20c0d3d581f1d429f95f5064eb766c2818c5a05992dfef66b0765/paddlepaddle-3.3.1-cp313-cp313-manylinux1_x86_64.whl", hash = "sha256:4f28038427649bb2fcfd4d52efa85ed8311df19122b4ebedc942484a0b57b032", size = 194837642, upload-time = "2026-03-24T08:02:36.024Z" },
+    { url = "https://files.pythonhosted.org/packages/f4/c8/408b9e94ac2e10a55c1122b787359f7a6f79ef894ee1d57d78c5cca838d0/paddlepaddle-3.3.1-cp313-cp313-win_amd64.whl", hash = "sha256:1203e2e1114b49e73a8440b68837ce5c93fdab51fe4838c5e5874ab40f58f747", size = 104794530, upload-time = "2026-03-26T11:11:52.214Z" },
 ]
 
 [[package]]
