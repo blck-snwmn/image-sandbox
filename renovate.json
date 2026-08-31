@@ -2,5 +2,22 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "local>blck-snwmn/renovate-config"
+  ],
+  "packageRules": [
+    {
+      "matchManagers": [
+        "pep621",
+        "pyenv"
+      ],
+      "matchPackageNames": [
+        "python"
+      ],
+      "matchFileNames": [
+        "python/pyproject.toml",
+        "python/ocr/pyproject.toml",
+        "python/.python-version"
+      ],
+      "groupName": "Python version"
+    }
   ]
 }
